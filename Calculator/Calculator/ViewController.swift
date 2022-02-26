@@ -69,13 +69,13 @@ class ViewController: UIViewController {
             
     }
     
-   //Clear All data
+    
+    //Clear All data
     @IBAction func removeAllFunc(_ sender: Any) {
         removeAll()
-        
     }
     
-    @IBAction func deleteFunc(_ sender: Any) {
+    @IBAction func deletFunc(_ sender: Any) {
         if(!calculations.isEmpty){
             calculations.removeLast()
             calculationArea.text = calculations
@@ -85,11 +85,9 @@ class ViewController: UIViewController {
     @IBAction func percentageFunc(_ sender: Any) {
         getCalculatorData(inputVal: "%")
     }
-    
-    @IBAction func modulusFunc(_ sender: Any) {
+    @IBAction func divideFunc(_ sender: Any) {
         getCalculatorData(inputVal: "/")
     }
-    
     @IBAction func multiplyFunc(_ sender: Any) {
         getCalculatorData(inputVal: "*")
     }
@@ -114,12 +112,12 @@ class ViewController: UIViewController {
     @IBAction func calDigitEight(_ sender: Any) {
         getCalculatorData(inputVal: "8")
     }
+   
     
     
-    @IBAction func CalDigitSven(_ sender: Any) {
+    @IBAction func calDigitSeven(_ sender: Any) {
         getCalculatorData(inputVal: "7")
     }
-
     @IBAction func calDigitSix(_ sender: Any) {
         getCalculatorData(inputVal: "6")
     }
