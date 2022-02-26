@@ -59,6 +59,7 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="clearScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5dQ-bB-MyB"/>
+                                                    <action selector="removeAllFunc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IzG-DW-36d"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFT-S7-5Jg">
@@ -107,6 +108,7 @@
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="CalDigitSven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WfW-Ee-Xha"/>
                                                     <action selector="calDigitSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ptb-Bv-sX6"/>
                                                     <action selector="calSevenDigit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0WJ-4P-t4M"/>
                                                 </connections>
